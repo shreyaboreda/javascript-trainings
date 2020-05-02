@@ -1,0 +1,29 @@
+/*selectors*/
+/*element --> element name
+id --> #elementId
+class --> .className*/
+
+button {
+	background-color: blue;
+	margin-left: 30%;
+}
+
+h1 {
+	text-align: center;
+}
+
+#sub-head {
+	margin-left: 30%;
+	width: 40%;
+}
+
+
+#box {
+	display: flex;
+	padding: 2%;
+}
+
+.part {
+	width: 50%;
+	margin: 2%;
+}
