@@ -1,4 +1,4 @@
-var user={
+var user = {
 	firstname:'shreya',
 	surname:'boreda',
 	phone:'630*******',
@@ -7,6 +7,10 @@ var user={
 		return a+b;
 	}
 };
+
+document = {
+	
+}
 
 
 console.log(user.firstname)

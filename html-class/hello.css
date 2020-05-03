@@ -3,8 +3,13 @@
 id --> #elementId
 class --> .className*/
 
-button {
+#btn-blue {
 	background-color: blue;
+	margin-left: 30%;
+}
+
+#btn-red {
+	background-color: red;
 	margin-left: 30%;
 }
 
