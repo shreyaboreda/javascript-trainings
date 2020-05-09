@@ -1,0 +1,13 @@
+.user-box {
+	padding: 20px;
+	border: 1px solid grey;
+}
+
+.header {
+	text-align: center;
+}
+
+.form-field {
+	margin: 20px;
+	text-align: center;
+}
