@@ -1,0 +1,40 @@
+{
+	"products": [
+		{
+			"id": "p121",
+			"name": "Cricket Bat",
+			"price": "1250",
+			"brand": "Adidas"
+		},
+		{
+			"id": "p122",
+			"name": "Cricket Ball",
+			"price": "340",
+			"brand": "Vicky"
+		},
+		{
+			"id": "p123",
+			"name": "Cricket Stump",
+			"price": "120",
+			"brand": "Puma"
+		},
+		{
+			"id": "p124",
+			"name": "Cricket Bail",
+			"price": "40",
+			"brand": "Puma"
+		},
+		{
+			"id": "p125",
+			"name": "Keeper Gloves",
+			"price": "540",
+			"brand": "Adidas"
+		},
+		{
+			"id": "p126",
+			"name": "Batsman Gloves",
+			"price": "350",
+			"brand": "Adidas"
+		}
+	]
+}
