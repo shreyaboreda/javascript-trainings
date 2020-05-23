@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./user.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script type="text/javascript" src="./user.js"></script>
+		
+	</head>
+	<body>
+		<div class="container">
+        <style>
+            body {
+               background-color: powderblue;
+                 }
+            
+        </style>
+			<h1 class="header" style="font-family:'italic'"><u>Create User</u></h1>
+			
+			<div class="row">
+				<div class="form-group col-lg-6">
+					<label class="first">First Name:</label>
+					<input class="form-control" type="text" id="firstName" />
+				</div>
+				<div class="form-group col-lg-6">
+					<label class="first">Last Name:</label>
+					<input class="form-control" type="text" id="lastName" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-lg-6">
+					<label class="first">DOB:</label>
+					<input class="form-control" type="date" id="dob" />
+				</div>
+				<div class="form-group col-lg-6">
+					<label class="first">Password:</label>
+					<input class="form-control" type="password" id="password" />
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="form-group col-lg-6">
+					<label class="first">Email:</label>
+					<input class="form-control" type="email" id="eamil" />
+				</div>
+				<div class="form-group col-lg-6">
+					<label class="first">Phone:</label>
+					<input class="form-control" type="number" id="phone" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-lg-6">
+					<label class="first">Gender:</label>
+					<div class="col-sm-10">
+				        <div class="form-check">
+				          <input class="form-check-input" type="radio" name="gender" id="gender1" value="option1">
+				          <label class="form-check-label" for="gender1">
+				            Male
+				          </label>
+				        </div>
+				        <div class="form-check">
+				          <input class="form-check-input" type="radio" name="gender" id="gender2" value="option2">
+				          <label class="form-check-label" for="gender2">
+				            Female
+				          </label>
+				        </div>
+				        <div class="form-check disabled">
+				          <input class="form-check-input" type="radio" name="gender" id="gender3" value="option3">
+				          <label class="form-check-label" for="gender3">
+				            Other
+				          </label>
+				        </div>
+				      </div>
+				    </div>
+				<div class="form-group col-lg-6">
+					<label class="first">Hobbies:</label>
+					<div class="col-sm-10">
+						<div class="form-check">
+							<input type="checkbox" name="hobby" /> Cricket
+						</div>
+						<div class="form-check">
+							<input type="checkbox" name="hobby" /> Book reading
+						</div>
+						<div class="form-check">
+							<input type="checkbox" name="hobby" /> Chess
+						</div>
+						<div class="form-check">
+							<input type="checkbox" name="hobby" /> Movies
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-lg-12">
+					<label class="first">Address:</label>
+					<textarea class="form-control" type="textarea" id="address"></textarea>
+				</div>
+			</div>
+			
+			<div class="form-field">
+				<button class="btn btn-danger btn-sm" onclick="cancel()">Cancel</button>
+				<button class="btn btn-primary btn-sm" onclick="creareUser()">
+					Create
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
+
